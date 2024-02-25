@@ -1,0 +1,68 @@
+1998  pwd
+ 1999  211208_Exercise1
+ 2000  touch 211208_Exercise1
+ 2001  pwd
+ 2002  ls
+ 2003  cat >> 211208_Exercise1 
+ 2004  cat 211208_Exercise1 
+ 2005  cat >> 211208_Exercise1 
+ 2006  cat 211208_Exercise1 
+ 2007  touch 211208_Exercise1_cp
+ 2008  cat 211208_Exercise1 > 211208_Exercise1.cp
+ 2009  cat 211208_Exercise1.cp
+ 2010  cat 211208_Exercise1
+ 2011  cat -n
+ 2012  cat -n 211208_Exercise1.cp
+ 2013  pwd
+ 2014  mkdir 211208
+ 2015  ls
+ 2016  mv -v text 211208/ 
+ 2017  mv 211208/text text
+ 2018  mv text 211208
+ 2019  cd 211208/
+ 2020  ls
+ 2021  mv text ../
+ 2022  ls
+ 2023  cd ..
+ 2024  ls
+ 2025  mv 211208_Exercise1 211208_Exercise1.cp 211208
+ 2026  ls
+ 2027  cd 211208/
+ 2028  ls
+ 2029  touch text1.txt text2.txt
+ 2030  ls
+ 2031  cat 211208_Exercise1.cp> text1.txt 
+ 2032  cat text1.txt 
+ 2033  cat 211208_Exercise1.cp> text2.txt 
+ 2034  cat text2.txt 
+ 2035  ls
+ 2036  mkdir Damodar_211208
+ 2037  ls
+ 2038  cp -v text1.txt text2.txt Damodar_211208/
+ 2039  ls
+ 2040  cd Damodar_211208/
+ 2041  ls
+ 2042  mkdir subdir
+ 2043  cd ..
+ 2044  ls
+ 2045  cp 211208_Exercise1.cp /home/student/211208/Damodar_211208/subdir/
+ 2046  cd Damodar_211208/subdir/
+ 2047  ls
+ 2048  cd
+ 2049  pwd
+ 2050  ls
+ 2051  mv 211208 Exercise_1
+ 2052  ls
+ 2053  cd Exercise_1
+ 2054  ls
+ 2055  cd Da
+ 2056  cd Damodar_211208/
+ 2057  ls
+ 2058  cd subdir
+ 2059  ls
+ 2060  cd ..
+ 2061  ls
+ 2062  wc text1.txt 
+ 2063  wc -v text1.txt 
+ 2064  touch bash_log_Ex1
+ 2065  history
