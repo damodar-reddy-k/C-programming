@@ -1,2 +1,2 @@
-# C-programs Content Outline
+# A Mini Project using C language
 
