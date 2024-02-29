@@ -6,8 +6,7 @@ void main(){
      f1 = fopen("s.txt", "r");
      f2 = fopen("d.txt","w");
 
-     while((c=fgetc(f1))!=EOF){
-           //c = fgetc(f1);
+     while((c=fgets(f1))!=EOF){
 	   printf("\n-%c-",c);
      	   fputc(c,f2);
 		}
