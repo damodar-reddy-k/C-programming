@@ -1,0 +1,30 @@
+Concepts: Arrays
+
+Assignment
+
+(In the below 2 problems, try to access last element of array for eg, in a[5], try to print a[5], do u get any error and share with others ur experience)
+
+1.) Write a program which inputs a number from a user and stores a multiplication table of that number in an integer array of size 10. Then print multiplication table of number using any loop.
+
+
+2.) Write a program with following specification:
+   RegdNo[n] contains regdno of students  ( value of n can be chosen by you in begining like n=4 or 5. U can not ask user to enter n and then declare array. why?)
+   Marks[n] contains marks of 5 students in c programming lab.
+
+   Take the regdno and marks input from  user using for loop or while loop and then calculcate avg, max, min, median, standard deviation of marks.
+
+Ouput should be as below:
+
+RegdNo  Marks
+01001	  10
+01002   9
+01003   8
+01004   8.6
+
+
+Avg marks:
+Minimum marks:
+Standard Deviation of marks:
+Median of marks:
+
+3. Write a program to sort an array of 10 numbers using bubble sort, selection sort and merge sort.

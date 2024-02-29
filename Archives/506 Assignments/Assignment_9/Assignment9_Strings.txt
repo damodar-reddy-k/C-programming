@@ -1,0 +1,35 @@
+			String assignment
+Aum Sri Sai Ram
+
+
+
+1) Write functions in your library strlen, strcmp, substr, strcpy,strcat after familarizing yourself with string.h
+
+2)Write a program to do following:
+
+i)Take string input from a user.  //char * inputString(char *);
+ii)Count the no of times each word occurs  //void frequencyWord(char *);
+iii)Sort all words in string and return the sorted string in another variable //char* sortString(const char *input, char *output);
+iv)Replace all consecutive spaces with a single space // char* TrimSpaces(char *);
+v) Change the case of first letter of word to uppercase.//char *makeInitcase(char *);
+
+
+
+
+
+i)Function to find string length.
+ii)Function to copy a string 
+iii)Function to concatenate 2 strings
+iv)Function to print Alternate characters in string
+v)Function to Accept a String and returns its substring. substr(str,start_pos,no_of_chars)
+vi)Function to prints its alternate characters in reverse
+vii)Function takes input 2 strings and returns the largest string.
+viii)Function to Accept a String and prints vowels
+ix)Function to Accept a String and returns no of vowels
+x)Function to Accept a String and prints no of each Vowel
+xi)Function to Accept a String and a character and find out whether this character is present in the string
+xii)Function to replace a substring by another substring in a given string.
+xiii)Function to sort alphabets of a given a string.
+xiv)Function to sort all words in a given string.
+
+
