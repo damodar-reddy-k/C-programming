@@ -19,7 +19,6 @@
 #include <stdbool.h>
 #include <ctype.h>
 #include <stdlib.h>
-
 #include "dictionary.h"
 
 // For number of words stored in the dictionary loaded

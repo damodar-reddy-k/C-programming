@@ -26,9 +26,11 @@ int main(int argc, char* argv[])
     printf("\nSuccessfull loaded the dictionary loaded with %u words.\n", dict_size);
 
     // Check some words
-    printf("\n %s is a %s\n", argv[1], check(argv[1]) ? "correct_spelling\n" : "wrong spelling or Not present in the dictionary\n");
-    //else
-    //printf("\n %s is a %s\n", word, check(&word) ? "correct_spelling\n" : "wrong spelling or Not present in the dictionary\n");
+    if(check(argv[1]))
+      printf("\n %s is a %s\n", argv[1],"correct_spelling\n");
+    else
+      printf("\n %s is a %s\n", argv[1],"wrong spelling or Not present in the dictionary\n");
+    
     // Unload dictionary
     unload();
 
