@@ -25,10 +25,10 @@ void correctit(char *word[0]){
         word[0][j] = temp;       
     } 
 
- //Case : If the user enter a word with a unnecessary character ?
+ //Case : If the user enter a word with 1 unnecessary character ?
     int l,m,n;
     
-    for(l=1; l < strlen(word[0]); i++){
+    for(l=1; l < 5; l++){
         printf("\n Second case %ld \n", strlen(word[0]));
         char temp = word[0][l];
         for(m=l, n=m+1; m < strlen(word[0]); n++,m++){
@@ -45,5 +45,8 @@ void correctit(char *word[0]){
         }
     word[0][l] = temp;    
     }
+//If user misses a character
+
+
     printf("\nThe original word before ending is %s\n", word[0]);
 }
