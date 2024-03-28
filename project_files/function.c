@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include "dictionary.h"
+
 void correctit(char *word[0]){
     char temp;
     int i,j,k = 0;
@@ -62,7 +63,62 @@ void correctit(char *word[0]){
     //}
     
 //Case 3: If user misses a character
+    word[1] = "abcdefghijklmnopqrstuvwxyz";
+    int x,y,z; char t1,t2;
 
+    for(y = 0; y < strlen(word[0]) ; y++){
+        for(x=y,t1 = 'a'; x < (strlen(word[0])-y); x++){
+                t2 = word[0][x];
+                word[0][x] = t1;
+                t1 = t2;
+                }
+        if(check(word[0])){
+            if(!k){
+                printf("\n The possible correct words are : ");
+                printf("%s\n",word[0]);
+                k++;
+            }
+            else
+                printf("\t\t\t%s\n",word[0]);
+        }
+        for(z=1; z<26 ;z++){
+                word[0][y] = word[1][z];
+
+                if(check(word[0])){
+                    if(!k){
+                       printf("\n The possible correct words are : ");
+                       printf("%s\n",word[0]);
+                       k++;
+                       }
+                    else
+                       printf("\t\t\t%s\n",word[0]);
+                    }
+        }
+    for( ; y < strlen(word[0])-1 ; y++){
+        word[0][y] = word[0][y+1] ;
+        }
+        word[0][y] = '\0' ;
+    }
+
+//Case 4: If user enters a 1 wrong
+    int a,b,c; char t3;
+
+    for(a=0 ; a<strlen(word[0]) ;a++){
+        t3 = word[0][a];
+
+        for(b=0; b<26 ;b++){
+            word[0][a] = word[1][b];
+            if(check(word[0])){
+                if(!k){
+                   printf("\n The possible correct words are : ");
+                   printf("%s\n",word[0]);
+                   k++;
+                }
+                else
+                   printf("\t\t\t%s\n",word[0]);
+                }
+        }
+    }
 
                                                             // printf("\nThe original word before ending is %s\n", word[0]);
 }
