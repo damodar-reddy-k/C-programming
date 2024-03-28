@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include "header.h"
+#include "dictionary.h"
+#include "dictionary.c"
 #define LEN 5
 
 int main(int argc, char* argv[])
@@ -13,13 +15,14 @@ int main(int argc, char* argv[])
     }
 
     char *word[LEN];
+    word[LEN+1] = "abcdefghijklmnopqrstuvwxyz";
     for (int i = 0; i < LEN; i++) {
         word[i] = (char *)malloc((strlen(argv[1]) + 1) * sizeof(char));
         if (word[i] == NULL) {
             printf("Memory allocation failed.\n");
             return 1;
         }
-        strcpy(word[i], argv[1]);
+        strcpy(word[0], argv[1]);
     }
 
     // Load dictionary
