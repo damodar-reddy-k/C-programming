@@ -6,5 +6,4 @@
 #include "dictionary.c"
 
 
-
 void correctit(char *word[0]);
