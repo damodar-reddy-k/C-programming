@@ -11,7 +11,7 @@ void correctit(char *word[0]){
 
                                                           //printf("\nThe original word before beginning is %s\n", word[0]);
 
-//Case 1: when a use enters a letter faster or slower. correcting this by interchanging all adjacent characters.
+/*//Case 1: when a use enters a letter faster or slower. correcting this by interchanging all adjacent characters.
     for(i=0,j=1 ; word[0][j]!='\0'; i++,j++){
               temp = word[0][i];
         word[0][i] = word[0][j];
@@ -61,7 +61,8 @@ void correctit(char *word[0]){
             
         }   
     //}
-    
+*/
+  
 //Case 3: If user misses a character
     word[1] = "abcdefghijklmnopqrstuvwxyz";
     int x,y,z; char t1,t2;
