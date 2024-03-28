@@ -1,6 +1,9 @@
+#include <stdbool.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include "header.h"
-#define LEN 1
-
+#define LEN 5
 
 int main(int argc, char* argv[])
 {
@@ -9,7 +12,7 @@ int main(int argc, char* argv[])
         return 1;
     }
 
-    char *word[LEN+1];
+    char *word[LEN];
     word[LEN+1] = "abcdefghijklmnopqrstuvwxyz";
     for (int i = 0; i < LEN; i++) {
         word[i] = (char *)malloc((strlen(argv[1]) + 1) * sizeof(char));
@@ -17,7 +20,7 @@ int main(int argc, char* argv[])
             printf("Memory allocation failed.\n");
             return 1;
         }
-        strcpy(word[i], argv[i+1]);
+        strcpy(word[0], argv[1]);
     }
 
     // Load dictionary
