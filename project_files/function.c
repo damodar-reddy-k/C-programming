@@ -1,5 +1,9 @@
 #include "header.h"
-
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include "dictionary.h"
 void correctit(char *word[0]){
     char temp;
     int i,j,k = 0;

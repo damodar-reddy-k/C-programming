@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include "header.h"
+#include "dictionary.h"
+#include "dictionary.c"
 #define LEN 5
 
 int main(int argc, char* argv[])
