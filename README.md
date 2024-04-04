@@ -1,2 +1,3 @@
-## Word Sage: Wise Suggestions for Misspelled Words
+## Word Sage
+Wise Suggestions for Misspelled Words
 

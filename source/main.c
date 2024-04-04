@@ -27,15 +27,7 @@ int main(int argc, char* argv[])
 
     // Load dictionary
     int num; bool loaded;
-    printf("\n\t\t 1) Dictionary\n\t\t2) Dictionary1\n\t\t3) Dictionary2\n\t\tChoose the dictionary to load : ");
-    scanf("%d",&num);
-    num = num-1;
-    switch(num){    
-    case 0 : loaded = load("/workspaces/C-programming/Dictionaries/Dictionary.txt");break;
-    case 1 : loaded = load("Dictionaries/Dictionary1.txt");break;
-    case 2 : loaded = load("Dictionaries/Dictionary2.txt");break;
-    default : break; //printf("\n Enter right input ");
-    }
+    loaded = load("/workspaces/C-programming/Dictionaries/Dictionary.txt");
     if (!loaded)
     {
         printf("Could not load dictionary.\n");
@@ -46,7 +38,7 @@ int main(int argc, char* argv[])
     if (check(word[0]))
         printf("\n%s is a correct spelling.\n", word[0]);
     else {
-        printf("\n%s is a wrong spelling or not present in the dictionary - %d.\n", word[0],num);
+        printf("\n%s is a wrong spelling or not present in the dictionary\n", word[0]);
         correctit(&word[0]);
     }
 
