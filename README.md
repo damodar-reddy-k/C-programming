@@ -1,4 +1,4 @@
-### Word Sage
+## Word Sage
 Wise Suggestions for Misspelled Words
 
 # What is word sage all about ?
@@ -11,6 +11,6 @@ Wise Suggestions for Misspelled Words
     2)
 
 # How to use the program ?
- Step 1 : Open terminal and navigate to source directory
- Step 2 : run "make" command
- step 3 : run ./a.out "THE_ACTUAL_WORD_U_WANT_TO_CHECK"
+###Step 1 : Open terminal and navigate to source directory
+###Step 2 : run "make" command
+###step 3 : run ./a.out "THE_ACTUAL_WORD_U_WANT_TO_CHECK"
