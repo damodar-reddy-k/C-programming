@@ -17,13 +17,7 @@ void correctit(char *word[0]){
         word[0][i] = word[0][j];
         word[0][j] = temp;
         if(check(word[0])){     
-            if(!k){
-              printf("\n The possible correct words are:");
-              printf("%s\n",word[0]);
-              k++;
-            }
-        else
-            printf("\t\t\t\t%s\n",word[0]);        
+           printw(&word[0],&k);      
         }
               temp = word[0][i];
         word[0][i] = word[0][j];
@@ -43,13 +37,7 @@ void correctit(char *word[0]){
             }
             word[0][m] = '\0';                             // Ending of char array
             if(check(word[0])){                            // Checking if the modified word is correct or not.
-                if(!k){
-                    printf("\n The possible correct words are:");
-                    printf("%s\n",word[0]);
-                    k++;
-                }
-                else
-                    printf("\t\t\t\t %s\n",word[0]);     
+                printw(&word[0],&k);    
             }   
                                                            // printf("\n word len : %ld and l=%d ; m=%d ; n=%d and the word is %s\n", strlen(word[0]),l,m,n,word[0]);             
             for( m--,n-- ;  m >= l ; n--,m--){             // taking all chars to their original positions
@@ -76,27 +64,14 @@ void correctit(char *word[0]){
                 }
 	//printf("\n\t word after the inner loop : %s", word[0]);
         if(check(word[0])){
-            if(!k){
-                printf("\n The possible correct words are:");
-                printf("%s\n",word[0]);
-                k++;
-            }
-            else
-                printf("\t\t\t\t%s\n",word[0]);
+           printw(&word[0],&k);
         }
         for(z=1; z<26 ;z++){
                 word[0][y] = word[1][z];
 
                 if(check(word[0])){
-                    if(!k){
-                       printf("\n The possible correct words are:");
-                       printf("%s\n",word[0]);
-                       k++;
-                       }
-                    else
-                       printf("\t\t\t\t%s\n",word[0]);
-                    }
-		  //printf("\n\t After every iterate : %s", word[0]);
+                    printw(&word[0],&k);
+                }
         }
     for( w=y ; w < strlen(word[0])-1 ; w++){
         word[0][w] = word[0][w+1] ;
@@ -116,13 +91,7 @@ void correctit(char *word[0]){
             word[0][a] = word[1][b];
 	    //printf("\n\t at every check : %s",word[0]);
             if(check(word[0])){
-                if(!k){
-                   printf("\n The possible correct words are:");
-                   printf("%s\n",word[0]);
-                   k++;
-                }
-                else
-                   printf("\t\t\t\t%s\n",word[0]);
+                printw(&word[0],&k);
                 }
         }
 	word[0][a] = t3;
@@ -130,3 +99,14 @@ void correctit(char *word[0]){
 
                                                              printf("\nThe original word before ending is %s\n", word[0]);
 }
+
+
+void printw(char *word[0],int *k){
+    if(!k){
+        printf("\nThe possible correct words are:");
+        printf("%s\n",word[0]);
+        k++;
+        }
+    else
+        printf("\t\t\t\t%s\n",word[0]); 
+    }
