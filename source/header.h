@@ -1,0 +1,1 @@
+void correctit(char *word[0]);
