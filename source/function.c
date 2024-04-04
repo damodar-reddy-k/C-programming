@@ -25,7 +25,6 @@ void correctit(char *word[0]){
     } 
 
 // Case 2: If the user enter a word with 1 unnecessary character ?
-    //if(!k){
                                                            // printf("\n Case1 didnt work \n");
         int l,m,n;    
         
@@ -48,7 +47,6 @@ void correctit(char *word[0]){
                                                            // printf("\n Checking if I have the original word \nword len : %ld and l=%d ; m=%d ; n=%d and the word is %s\n", strlen(word[0]),l,m,n,word[0]);
             
         }   
-    //}
 
   
 //Case 3: If user misses a character
