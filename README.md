@@ -15,7 +15,7 @@ In addition to these core functions, the program also utilizes the "load" and "u
 ## Demo
 https://github.com/damodar-reddy-k/Spell_Check_plus_plus/assets/116241273/c82fbf26-ccb9-41a1-8ef9-136a5684edc4
 ## Usage
-I have made a simple webpage to demonstrate this project using streamlit. Try it out [here](https://cap-sc.streamlit.app/).
+I have made a simple webpage to demonstrate this project using streamlit. You can try it out [here](https://cap-sc.streamlit.app/).
 (Credits to Microsoft Copilot)
 
 To test Spell Check++ yourself, follow these steps:
@@ -26,7 +26,7 @@ To test Spell Check++ yourself, follow these steps:
 4. Execute the program using the command: `./a.out "THE_ACTUAL_WORD_YOU_WANT_TO_CHECK_OR_CORRECT"`.
 
 ## Acknowledgments
-Special thanks to [madhav-datt](https://github.com/madhav-datt) for their bulding and open-sourcing the dictionary library.
+Special thanks to [madhav-datt](https://github.com/madhav-datt) for bulding and open-sourcing the dictionary library.
 
 ## Contributing
 There is always room for improvement. If you have any feedback or suggestions, please feel free to open an issue or submit a pull request. Together, we can build a better future through open-source collaboration.
