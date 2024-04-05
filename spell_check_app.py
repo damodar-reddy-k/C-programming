@@ -10,8 +10,8 @@ def run_c_program(word):
 
 def main():
     st.title("Spell Check++ Web App")
-    user_word = st.text_input("Enter a word to check or correct:")
-    if st.button("Check"):
+    user_word = st.text_input("Enter a word to check or correct:", key="user_input")
+    if st.button("Check") or st.session_state.user_input:
         result = run_c_program(user_word)
         st.write(f"Result: {result}")
 
