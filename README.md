@@ -10,7 +10,7 @@ Spell Check++ is built on top of an existing library called "dictionary lib" whi
 
 **2. Word Correction**: When a word is misspelled, the program manipulates the word and uses the "check" function to determine the correctness of the modified word. If the modified word is found in the dictionary, it is suggested as a possible correct spelling.
 
-In addition to these core functions, the program also utilizes the "load" and "unload" functions to build and destroy the trie tree, respectively.
+In addition to these core functions, the program also utilizes the "load" and "unload" functions to build and destroy the trie tree, a data structure which is being built by loading all the words from "Dictionary.txt" file.
 
 ## Demo
 https://github.com/damodar-reddy-k/Spell_Check_plus_plus/assets/116241273/c82fbf26-ccb9-41a1-8ef9-136a5684edc4
