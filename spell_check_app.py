@@ -3,7 +3,7 @@ import subprocess
 
 def run_c_program(word):
     try:
-        result = subprocess.check_output(["./a.out", word], stderr=subprocess.STDOUT, text=True)
+        result = subprocess.check_output(["./workspaces/Spell_Check_plus_plus/source/a.out", word], stderr=subprocess.STDOUT, text=True)
         return result.strip()
     except subprocess.CalledProcessError as e:
         return f"Error executing C program: {e.output}"
