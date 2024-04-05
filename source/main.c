@@ -25,7 +25,7 @@ int main(int argc, char* argv[]){
     }
 
     int num; bool loaded; // Load dictionary
-    loaded = load("/workspaces/C-programming/Dictionaries/Dictionary.txt");
+    loaded = load("/workspaces/C-programming/Dictionary file/Dictionary.txt");
     if (!loaded){
         printf("Could not load dictionary.\n");
         return 1;
