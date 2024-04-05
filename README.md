@@ -1,21 +1,32 @@
-## What is Spell Check++ ?
-Spell Check++ is a spelling companion that ensures error-free writing with intelligent suggestions.
-## How it works ?
-This application is built on an existing library called dictionary which was built and open-sourced by "author_name(repo_link)".
-This project has 2 major functionalities.
-1) Checking the word for correctness : The program checks the given word in the trie-data structure which is built by loading the all the words from the dictionary text file. This involves "check"  function of dictionary library.
-2) Correct the wrongly spelt word : Here the program uses manipulates the word and uses the "check" function to check the correctness of the modified word. If it is found in the dictionary, it will be suggested as the possible correct word.
-Apart from the above mentioned two functions, the program uses "load" and "unload" for building and destroying the trie-tree.
+# Spell Check++
 
-Embed a Demo video here.
-## How to use the program ?
-### Step 1 : fork this repository and open it in codespaces and clone it if you want to run it locally
-### Step 2 : Open terminal and navigate to the directory - "source"
-### Step 3 : run "make" command
-### Step 4 : run ./a.out "THE_ACTUAL_WORD_YOU_WANT_TO_CHECK_OR_CORRECT"
+## Introduction
+Spell Check++ is an intelligent spelling companion that ensures error-free writing by providing smart suggestions. It leverages an open-source dictionary library to check the correctness of words and offer possible corrections for misspelled terms.
 
-## Similar projects
-Special thanks to "embed author name"
-There is always some scope for the improvement.You are always welcome to share your feedback / suggestions.
-Together, we can build the better future. feel free to open an issue / a pull-request and contribute to this project.
-Happy open-sourcing !!!
+## How it Works
+Spell Check++ is built on top of an existing library called "dictionary," which was developed and open-sourced by [author_name](repo_link). The project offers two main functionalities:
+
+1. **Word Correctness Check**: The program checks the given word against a trie data structure, which is built by loading all the words from the dictionary text file. This functionality utilizes the "check" function provided by the dictionary library.
+
+2. **Word Correction**: When a word is misspelled, the program manipulates the word and uses the "check" function to determine the correctness of the modified word. If the modified word is found in the dictionary, it is suggested as a possible correct spelling.
+
+In addition to these core functions, the program also utilizes the "load" and "unload" functions to build and destroy the trie tree, respectively.
+
+## Demo
+[Embed a Demo video here]
+
+## Usage
+To use Spell Check++, follow these steps:
+
+1. Fork this repository and open it in Codespaces, or clone it if you prefer to run it locally.
+2. Open the terminal and navigate to the "source" directory.
+3. Run the `make` command to compile the program.
+4. Execute the program using the command: `./a.out "THE_ACTUAL_WORD_YOU_WANT_TO_CHECK_OR_CORRECT"`.
+
+## Acknowledgments
+Special thanks to [embed author name] for their contributions to the dictionary library.
+
+## Contributing
+There is always room for improvement. If you have any feedback or suggestions, please feel free to open an issue or submit a pull request. Together, we can build a better future through open-source collaboration.
+
+Happy coding!
