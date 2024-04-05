@@ -9,7 +9,7 @@ def run_c_program(word):
         return f"Error executing C program: {e.output}"
 
 def main():
-    st.title("Spell Check++ Web App")
+    st.title("Spell Check++ Demonstration")
     user_word = st.text_input("Enter a word to check or correct:")
     if st.button("Check"):
         result = run_c_program(user_word)
