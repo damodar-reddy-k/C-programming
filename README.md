@@ -15,7 +15,10 @@ In addition to these core functions, the program also utilizes the "load" and "u
 ## Demo
 https://github.com/damodar-reddy-k/Spell_Check_plus_plus/assets/116241273/c82fbf26-ccb9-41a1-8ef9-136a5684edc4
 ## Usage
-To use Spell Check++, follow these steps:
+I have made a simple webpage to demonstrate this project using streamlit. Try it out [here](https://cap-sc.streamlit.app/).
+(Credits to Microsoft Copilot)
+
+To test Spell Check++ yourself, follow these steps:
 
 1. Fork this repository and open it in Codespaces, or clone it if you prefer to run it locally.
 2. Open the terminal and navigate to the "source" directory.

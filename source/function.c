@@ -110,9 +110,9 @@ void correctit(char *word[0]){
         word[0][a] = t3;
     }
     if(!k)
-        printf("\n\t The input word is too complex to correct./n");
+        printf("\n\t The input word is too complex to correct.\n");
     // Print the original word before ending
-    printf("\nThe original word before ending is %s\n", word[0]);
+    // printf("\nThe original word before ending is %s\n", word[0]);
 }
 
 
