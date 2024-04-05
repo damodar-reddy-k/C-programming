@@ -1,10 +1,10 @@
 # Spell Check++
 
 ## Introduction
-Spell Check++ is an intelligent spelling companion that ensures error-free writing by providing smart suggestions. It leverages an open-source dictionary library to check the correctness of words and offer possible corrections for misspelled terms.
+Spell Check++ is a spelling companion that ensures error-free writing by providing smart suggestions. It leverages an open-source dictionary library to check the correctness of words and offer possible corrections for misspelled words.
 
 ## How it Works
-Spell Check++ is built on top of an existing library called "dictionary," which was developed and open-sourced by [madhav-dutt](https://github.com/madhav-datt/spell-check). The project offers two main functionalities:
+Spell Check++ is built on top of an existing library called "dictionary" which was developed and open-sourced by [madhav-dutt](https://github.com/madhav-datt/spell-check). The project offers two main functionalities:
 
 1. **Word Correctness Check**: The program checks the given word against a trie data structure, which is built by loading all the words from the dictionary text file. This functionality utilizes the "check" function provided by the dictionary library.
 
