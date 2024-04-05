@@ -12,7 +12,7 @@ Embed a Demo video here.
 ### Step 1 : fork this repository and open it in codespaces and clone it if you want to run it locally
 ### Step 2 : Open terminal and navigate to the directory - "source"
 ### Step 3 : run "make" command
-### Step 4 : run ./a.out "THE_ACTUAL_WORD_YOU_WANT_TO_CHECK"
+### Step 4 : run ./a.out "THE_ACTUAL_WORD_YOU_WANT_TO_CHECK_OR_CORRECT"
 
 ## Similar projects
 Special thanks to "embed author name"
