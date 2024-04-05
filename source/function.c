@@ -9,6 +9,7 @@ void correctit(char *word[0]){
     char temp;
     int i,j = 0;
     int k = 0;
+    int counter = 0;
 
 //Case 1: Swaping every two adjacent characters and ckecking for correctness.
 
@@ -108,7 +109,8 @@ void correctit(char *word[0]){
         // Revert the character back to its original state
         word[0][a] = t3;
     }
-
+    if(!k)
+        printf("\n\t The input word is too complex to correct./n");
     // Print the original word before ending
     printf("\nThe original word before ending is %s\n", word[0]);
 }
