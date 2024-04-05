@@ -1,4 +1,4 @@
-## What is word sage ?
+## What is Spell Check++ ?
 Spell Check++ is a spelling companion that ensures error-free writing with intelligent suggestions.
 ## How it works ?
 This built on an existing library called dictionary which was built and open-sourced by "author_name(repo_link)".
