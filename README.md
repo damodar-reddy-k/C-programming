@@ -4,11 +4,11 @@
 Spell Check++ is a spelling companion that ensures error-free writing by providing smart suggestions. It leverages an open-source dictionary library to check the correctness of words and offer possible corrections for misspelled words.
 
 ## How it Works
-Spell Check++ is built on top of an existing library called "dictionary" which was developed and open-sourced by [madhav-datt](https://github.com/madhav-datt/dictionary-lib). The project offers two main functionalities:
+Spell Check++ is built on top of an existing library called "dictionary lib" which was developed and open-sourced by [madhav-datt](https://github.com/madhav-datt/dictionary-lib). The project offers two main functionalities:
 
-1. **Word Correctness Check**: The program checks the given word against a trie data structure, which is built by loading all the words from the dictionary text file. This functionality utilizes the "check" function provided by the dictionary library.
+**1. Word Correctness Check**: The program checks the given word against a trie data structure, which is built by loading all the words from the dictionary text file. This functionality utilizes the "check" function provided by the [dictionary library](https://github.com/madhav-datt/dictionary-lib/tree/master/lib).
 
-2. **Word Correction**: When a word is misspelled, the program manipulates the word and uses the "check" function to determine the correctness of the modified word. If the modified word is found in the dictionary, it is suggested as a possible correct spelling.
+**2. Word Correction**: When a word is misspelled, the program manipulates the word and uses the "check" function to determine the correctness of the modified word. If the modified word is found in the dictionary, it is suggested as a possible correct spelling.
 
 In addition to these core functions, the program also utilizes the "load" and "unload" functions to build and destroy the trie tree, respectively.
 
